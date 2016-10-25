@@ -1,0 +1,58 @@
+<html>
+<script type="text/javascript">
+function show_pic(){
+//alert('hi');
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+c1_elem.style.display='none';
+c2_elem.style.display='block';
+}
+function show_text(){
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+c1_elem.style.display='block';
+c2_elem.style.display='none';
+}
+</script>
+
+
+<body>
+<table border="1" style="color:green">
+<tr>
+<th colspan="2">  Oaaeeoa </th>
+</tr>
+<tr>
+<td onclick="show_text()">  Oaieeey</td> <td> <div id="c2" style="display:none"> <img src="n.jpg"> Eiy </div></td>
+</tr>
+<tr>
+<td colspan="2" width="50%">  <p style=' color:#ff0000;'> iie oaeno</p> </div> </td>
+
+</tr>
+
+
+
+</table>
+<table>
+<p> Ioieou </p>
+<ol>
+<li> Ia?aue ioieo </li>
+<li> Aoi?ie ioieo </li>
+</ol>
+</table>
+
+<table>
+<form>
+<p> Aaaaeoa aaoa eiy: </p>
+<input type="text" />
+<p> Aaaaeoa ia?ieu: </p>
+<input type="password" />
+</form>
+</table>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+<style>
+table.layout{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}    
+ td.menu{
+  background-color: red;
+  width: 33%;
+  border: 5px solid white;
+  
+ 
+ 
+}
+td.menu:hover{
+  background-color: blue
+}   
+    
+</style>
+<style>
+</style>
+<script type="text/javascript">
+    function show_pic() {
+        //alert('hi');
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'none';
+        c2_elem.style.display = 'block';
+    }
+    function show_text() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'block';
+        c2_elem.style.display = 'none';
+        c1_elem.style.background.color = 'yellow';
+    }
+    function show_map() {
+        var c1_elem = document.getElementById("c1");
+        var c2_elem = document.getElementById("c2");
+        var c3_elem = document.getElementById("c3");
+        c1_elem.style.display = 'block';
+        c2_elem.style.display = 'none';
+    }
+    
+</script>
+
+<body>
+
+<h1> Китай </h1>
+
+<table class="layout" >
+
+
+
+<tr>
+  <td id="m1" class="menu" onclick="show_text()">Краткие факты о Китае</td>
+  <td id="m2" class="menu" onclick="show_pic()">Фото Китая</td>
+  <td id="m3" class="menu" onclick="show_map()">Карта Китая</td>
+</tr>
+
+<tr>
+  <td colspan="3">
+
+  <div id="c1" style="display:none";>
+  Китай имеет наибольшую численость населени <br/>
+
+
+  </div>
+  <div id="c2"><img src="n.jpg"/></div>
+
+  <div id="c3"></div>
+  </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

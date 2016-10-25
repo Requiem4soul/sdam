@@ -1,0 +1,58 @@
+<html>
+<script type="text/javascript">
+function show_pic(){
+//alert('hi');
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+c1_elem.style.display='none';
+c2_elem.style.display='block';
+}
+function show_text(){
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+c1_elem.style.display='block';
+c2_elem.style.display='none';
+}
+</script>
+
+
+<body>
+<table border="1" style="color:green">
+<tr>
+<th colspan="2">  Таблица </th>
+</tr>
+<tr>
+<td onclick="show_text()">  Фамилия</td> <td> <div id="c2" style="display:none"> <img src="n.jpg"> Имя </div></td>
+</tr>
+<tr>
+<td colspan="2" width="50%">  <p style=' color:#ff0000;'> мой текст</p> </div> </td>
+
+</tr>
+
+
+
+</table>
+<table>
+<p> Пункты </p>
+<ol>
+<li> Первый пункт </li>
+<li> Второй пункт </li>
+</ol>
+</table>
+
+<table>
+<form>
+<p> Введите ваше имя: </p>
+<input type="text" />
+<p> Введите пароль: </p>
+<input type="password" />
+</form>
+</table>
+
+
+
+
+
+
+</body>
+</html>
